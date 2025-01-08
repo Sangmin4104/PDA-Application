@@ -1,0 +1,6 @@
+@LT_MATAL_APP_HostAddress = http://localhost:5155
+
+GET {{LT_MATAL_APP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

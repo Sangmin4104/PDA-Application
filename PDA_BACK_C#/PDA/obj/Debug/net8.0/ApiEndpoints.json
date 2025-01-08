@@ -1,0 +1,452 @@
+[
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "GetTBCode",
+    "RelativePath": "api/TB_Code",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LT_MATAL_APP.TB_CODE, LT_MATAL_APP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "CodeValue",
+    "RelativePath": "api/TB_Code/codeValue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codeValue",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "LOTProdSpool",
+    "RelativePath": "api/TB_Code/Lot_Prod_Manual_STD",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_LOAD_TYPE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_LOT_TRANS_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_SPOOL_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_WORK_TICKET_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_PART_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_WORK_DATE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_EQUIP_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_LOT_NO",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_START_DTTM",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_END_DTTM",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_TIME_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_CUST_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "LOTProdManual",
+    "RelativePath": "api/TB_Code/Lot_Prod_Spool_Complite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_LOT_TRANS_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_EQUIP_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "ShipBarcode",
+    "RelativePath": "api/TB_Code/shipBarcode",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_SHIP_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_SHIP_LINE_NO",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_LOT_NO",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_PART_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_CUST_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_SPOOL_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "ShipDetail",
+    "RelativePath": "api/TB_Code/shipDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_SHIP_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_SHIP_LINE_NO",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "ShipDetailDelete",
+    "RelativePath": "api/TB_Code/shipDetailDelete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_SHIP_DETAIL_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_LOT_TRANS_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "lotTransId",
+    "RelativePath": "api/TB_Code/shipLotTransId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SPOOL_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "SpoolLotTransId",
+    "RelativePath": "api/TB_Code/spoolCheck",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PART_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CUST_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SPOOL_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LOAD_TYPE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EQUIP_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "WORK_TICKET_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "WorkTicket",
+    "RelativePath": "api/TB_Code/workTicket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_WORK_DATE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_LINE_GUBN",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_CUST_NAME",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_CodeController",
+    "Method": "WorkTicketFinish",
+    "RelativePath": "api/TB_Code/workTicketFinish",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_USER_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_CREATE_TYPE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_WORK_TICKET_ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_EmpController",
+    "Method": "GetTBEMP",
+    "RelativePath": "api/TB_Emp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LT_MATAL_APP.LT_PDA, LT_MATAL_APP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_EmpController",
+    "Method": "EquipLogin",
+    "RelativePath": "api/TB_Emp/equip_login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EQUIP_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_EmpController",
+    "Method": "Login",
+    "RelativePath": "api/TB_Emp/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LT_MATAL_APP.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_EmpController",
+    "Method": "SpoolCheck",
+    "RelativePath": "api/TB_Emp/spoolCheck",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SPOOL_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_EmpController",
+    "Method": "UserSearch",
+    "RelativePath": "api/TB_Emp/userSearch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EMP_ID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EMP_NAME",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_RFIDController",
+    "Method": "GetTBCustomer",
+    "RelativePath": "api/TB_RFID",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LT_MATAL_APP.TB_CUSTOMER, LT_MATAL_APP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LT_MATAL_APP.Controllers.TB_RFIDController",
+    "Method": "WorkTicket",
+    "RelativePath": "api/TB_RFID/workTicket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "P_SHIP_DATE",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "P_CUST_NAME",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

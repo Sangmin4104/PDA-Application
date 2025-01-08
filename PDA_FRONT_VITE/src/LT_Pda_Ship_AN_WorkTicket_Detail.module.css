@@ -1,0 +1,272 @@
+.menuBar {
+    background: #2E9AFE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 89%;
+    height: 45px;
+    padding: 0 20px;
+    color: white;
+}
+
+.menuBar div {
+    display: flex;
+    align-items: center;
+}
+
+.rightSection {
+    margin-left: auto;
+}
+
+.menuBarText{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.flexContainer{
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datePicker{
+    margin-top:2px;
+    margin-left:10px;
+    width:95%;
+}
+
+.selecter{
+    text-align: left;
+    margin-top:-5px;
+    margin-left:10px;
+    width:95%;
+}
+
+.companyName{
+    margin-top: -5px;
+    margin-left: 10px;
+    width:94.5%
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableContainer {
+    width: 100%;
+    height: 340px;
+    overflow: auto;
+}
+
+.paperContainer {
+    width: 95.2%;
+    margin-left: 1.5%;
+}
+
+.tableHeadCell,
+.tableBodyCell {
+    font-size: 10px; 
+}
+
+.tableRow {
+    height: 30px;
+}
+
+.tableHeadCell,
+.tableBodyCell {
+    padding: 8px;
+}
+
+.tableCell {
+    padding: 8px;
+    text-align: center;
+}
+
+.logoutIcon{
+    margin-top:-10px;
+    text-align: center;
+}
+
+.logoutText {
+    margin-top:-20px;
+    text-align: center;
+}
+.logoutBtn{
+    margin-right: -10px;
+    margin-top:-10px;
+    float: right;
+}
+
+.selectDateIcon{
+    margin-top: -40px;
+    text-align: center;
+}
+
+.selectDateText {
+    margin-top:10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.selectDateBtn{
+    margin-top:0px;
+    width: 200px;
+    margin-left:180px;
+}
+
+.modalText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalAlime{
+    margin-top: 0px;
+    font-weight: 'bold'
+}
+.modalSetting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalSetting1{
+    display: flex;
+    justify-content: space-between;
+}
+.modalSetting2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.modalSetting3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.timeOut_text, .timeOutsliderText{
+    margin-top: 8px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.contentContainer{
+    width: 1300px;
+    height:430px;
+    background: #E6E6E6;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.rotatedIcon {
+    transform: 'rotate(90deg)'
+}
+
+.icon_container2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E9AFE;
+    color:white;
+    border-radius: 6px;
+    padding: 8px;
+    margin-right: 10px;
+    margin-top:10px;
+    margin-left: 10px;
+    width:35px;
+    height:35px; 
+}
+
+.heText{
+    margin-top:40px;
+}
+
+.bodyContent{
+    text-align: center;
+}
+
+
+.textField33{
+    display: flex;
+    justify-content: space-between;
+}
+
+.worktitle{
+    font-size: 30px;
+}
+
+.dateGubn1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon_container3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E9AFE;
+    color:white;
+    border-radius: 6px;
+    padding: 8px;
+    margin-right: 10px;
+    width:25px;
+    height:25px; 
+}
+
+.cancel_icon_container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E9AFE;
+    color:white;
+    border-radius: 20px;
+    padding: 8px;
+    width:1px;
+    height:1px; 
+    float:right;
+    margin-top:-1px;
+    cursor: pointer;
+}
+
+.userInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userInputDetail1{
+    margin-top: 5px;
+    margin-left: 12px;
+    width: 165px;
+    height:30px;
+    background: #faf8d5;
+    border-radius: 20px;
+    border: 1px #0160ee solid;
+}
+
+.userInputDetail2{
+    margin-top: 5px;
+    margin-right: 12px;
+    width: 165px;
+    height:30px;
+    background: #faf8d5;
+    border-radius: 20px;
+    border: 1px #0160ee solid;
+}
+
+.userInputText{
+    color: #0160ee;
+    margin-top:8px;
+    margin-right: 13px;
+    font-size:10px;
+}
+
+.userInputText1{
+    color: #0160ee;
+    margin-top:7px;
+    margin-right: 13px;
+    font-size:10px;
+}

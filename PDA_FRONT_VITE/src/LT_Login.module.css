@@ -1,0 +1,83 @@
+.container{
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logo{
+    margin-bottom:10px;
+}
+
+.LText{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.icon_t_container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #868686;
+    color:white;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.icon_container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #868686;
+    color:white;
+    border-radius: 12px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top:0px;
+    width:45px;
+    height:35px;
+}
+
+.icon_container2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #868686;
+    color:white;
+    border-radius: 8px;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top:10px;
+    width:30px;
+    height:30px; 
+}
+
+.form_row {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.loginText{
+    margin-top:10px;
+}
+
+.btn {
+    margin-top: 10px;;
+}
+
+.modalText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalAlime{
+    margin-top: 8px;
+}
+
+.modalContent{
+    text-align: center;
+}
+
+.scanText{
+    text-align: center;
+    margin-top: -5px;
+}

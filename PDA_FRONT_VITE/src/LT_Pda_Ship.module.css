@@ -1,0 +1,114 @@
+.menuBar {
+    background: #2E9AFE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 89%;
+    height: 45px;
+    padding: 0 20px;
+    color: white;
+}
+
+.menuBar div {
+    display: flex;
+    align-items: center;
+}
+
+.rightSection {
+    margin-left: auto;
+}
+
+.menuBarText{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.flexContainer{
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datePicker{
+    margin-top:2px;
+    margin-left:10px;
+    width:95%;
+}
+
+.selecter{
+    margin-top:-5px;
+    margin-left:10px;
+    width:95%;
+}
+
+.companyName{
+    margin-top: -14px;
+    margin-left: 10px;
+    width:94.5%
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableContainer {
+    width: 100%;
+    height: 290px;
+    overflow: auto;
+}
+
+.paperContainer {
+    width: 95.2%;
+    margin-left: 1.5%;
+}
+
+.tableHeadCell,
+.tableBodyCell {
+    font-size: 10px; 
+}
+
+.tableRow {
+    height: 30px;
+}
+
+.tableHeadCell,
+.tableBodyCell {
+    padding: 8px;
+}
+
+.tableCell {
+    padding: 8px;
+    text-align: center;
+}
+
+.logoutIcon{
+    margin-top:-10px;
+    text-align: center;
+}
+
+.logoutText {
+    margin-top:-20px;
+    text-align: center;
+}
+.logoutBtn{
+    margin-right: -10px;
+    margin-top:-10px;
+    float: right;
+}
+
+.selectDateIcon{
+    margin-top: -40px;
+    text-align: center;
+}
+
+.selectDateText {
+    margin-top:20px;
+    text-align: center;
+}
+.selectDateBtn{
+    margin-right: -10px;
+    margin-top:0px;
+    float: right;
+}

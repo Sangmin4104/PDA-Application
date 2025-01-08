@@ -1,0 +1,190 @@
+.menuBar {
+    background: #2E9AFE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 89%;
+    height: 45px;
+    padding: 0 20px;
+    color: white;
+}
+
+.menuBar div {
+    display: flex;
+    align-items: center;
+}
+
+.rightSection {
+    margin-left: auto;
+}
+
+.menuBarText{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.flexContainer{
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.datePicker{
+    margin-top:2px;
+    margin-left:10px;
+    width:95%;
+}
+
+.selecter{
+    margin-top:-5px;
+    margin-left:10px;
+    width:95%;
+}
+
+.companyName{
+    margin-top: -14px;
+    margin-left: 10px;
+    width:94.5%
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableContainer {
+    width: 100%;
+    height: 290px;
+    overflow: auto;
+}
+
+.paperContainer {
+    width: 95.2%;
+    margin-left: 1.5%;
+}
+
+.tableHeadCell,
+.tableBodyCell {
+    font-size: 10px; 
+}
+
+.tableRow {
+    height: 30px;
+}
+
+.tableHeadCell,
+.tableBodyCell {
+    padding: 8px;
+}
+
+.tableCell {
+    padding: 8px;
+    text-align: center;
+}
+
+.logoutIcon{
+    margin-top:-10px;
+    text-align: center;
+}
+.logoutText{
+    margin-top:-20px;
+    text-align: center;
+}
+.logoutBtn{
+    margin-right: -10px;
+    margin-top:-10px;
+    float: right;
+}
+
+.bacodeField{
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.textFields{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.textField1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textField2{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textField3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableContainer {
+    margin: 0;
+    height:300px;
+}
+
+.tableRow {
+    height: 40px;
+}
+
+.tableHeadCell {
+    font-size: 10px;
+    background: #01DFA5;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tableBodyCell {
+    font-size: 10px;
+    text-align: center;
+}
+
+.selectDateText {
+    margin-top:5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.selectDateBtn{
+    margin-left: -9px;
+    margin-top:12px;
+}
+
+.modalText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalAlime{
+    margin-top: 0px;
+    font-weight: 'bold'
+}
+
+.modalSetting{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalSetting1{
+    display: flex;
+    justify-content: space-between;
+}
+.modalSetting2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.modalSetting3{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 5px;
+}
+
+.timeOut_text, .timeOutsliderText{
+    margin-top: 8px;
+}
